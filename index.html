@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Tienda de maquillajes</title>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Tienda de Maquillajes</h1>
+    </header>
+    <section class="contenedor">
+        <div class="contenedor-items">
+            <div class="item">
+                <span class="titulo-item">Beautiful and Bronze, Set N° 503 Morphe</span>
+                <img src="./assets/imagenes/brochas.png" alt="brochas" class="img-item">
+                <span class="precio-item">$1.500</span>
+                <button class="boton-item">Agregar al carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Deluxe Badger, Set N 687 Morphe</span>
+                <img src="./assets/imagenes/brochas2.png" alt="brochas" class="img-item">
+                <span class="precio-item">$1.500</span>
+                <button class="boton-item">Agregar al carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">No Filter 3D Face Palette Roses Rude Cosmetics</span>
+                <img src="./assets/imagenes/paleta1.png" alt="paleta" class="img-item">
+                <span class="precio-item">$1.500</span>
+                <button class="boton-item">Agregar al carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">No Filter 3D Face Palette - Stars Rude Cosmetics</span>
+                <img src="./assets/imagenes/paleta2.png" alt="paleta" class="img-item">
+                <span class="precio-item">$1.500</span>
+                <button class="boton-item">Agregar al carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Metropolis - London Rude Cosmetics</span>
+                <img src="./assets/imagenes/sombras1.png" alt="somras London" class="img-item">
+                <span class="precio-item">$1.500</span>
+                <button class="boton-item">Agregar al carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Metropolis - Rio de Janeiro Rude Cosmetics</span>
+                <img src="./assets/imagenes/sombras2.png" alt="sombras Rio de Janeiro" class="img-item">
+                <span class="precio-item">$1.500</span>
+                <button class="boton-item">Agregar al carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Fairy Tale - Paperback Edition Rude Cosmetics</span>
+                <img src="./assets/imagenes/sombras3.png" alt="sombras" class="img-item">
+                <span class="precio-item">$1.500</span>
+                <button class="boton-item">Agregar al carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Return of the Jet - Paperback Edition Rude Cosmetics</span>
+                <img src="./assets/imagenes/sombras4.png" alt="sombras Return of the Jet" class="img-item">
+                <span class="precio-item">$1.500</span>
+                <button class="boton-item">Agregar al carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">The Rude Awakening - Paperback Edition Rude Cosmetics</span>
+                <img src="./assets/imagenes/sombras5.png" alt="sombras The Rude Awakening" class="img-item">
+                <span class="precio-item">$1.500</span>
+                <button class="boton-item">Agregar al carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Gift Card Automaquillaje Personalizado</span>
+                <img src="./assets/imagenes/giftcard(automaquillaje).png" alt="Gift Card de Automaquillaje" class="img-item">
+                <span class="precio-item">$1.500</span>
+                <button class="boton-item">Agregar al carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Gift Card Clase de Automaquillaje</span>
+                <img src="./assets/imagenes/giftcard2(clase).png" alt="Gift Card por clase de automaquillaje" class="img-item">
+                <span class="precio-item">$1.500</span>
+                <button class="boton-item">Agregar al carrito</button>
+            </div>
+
+        </div>
+        <!--carrito de compras-->
+        <div class="carrito">
+            <div class="header-carrito">
+                <h2>Tu Carrito</h2>
+            </div>
+
+            <div class="carrito-items">
+                <div class="carrito-item">
+                    <img src="./assets/imagenes/brochas.png" alt="" width="80px">
+                    <div class="carrito-item-detalles">
+                        <span class="carrito-item-titulo">Brochas</span>
+                        <div class="selector-cantidad">
+                            <i class="fa-solid fa-minus restar-cantidad"></i>
+                            <input type="text" value="1" class="carrito-item-cantidad" disabled>
+                            <i class="fa-solid fa-plus sumar-cantidad"></i>
+                        </div>
+                        <span class="carrito-item-precio">$1.500</span>
+                    </div>
+                    <span class="btn-eliminar">
+                        <i class="fa-solid fa-trash"></i>
+                    </span>
+                </div>
+                <div class="carrito-item">
+                    <img src="/assets/imagenes/brochas2.png" alt="" width="80px">
+                    <div class="carrito-item-detalles">
+                        <span class="carrito-item-titulo">Brochas Deluxe</span>
+                        <div class="selector-cantidad">
+                            <i class="fa-solid fa-minus restar-cantidad"></i>
+                            <input type="text" value="1" class="carrito-item-cantidad" disabled>
+                            <i class="fa-solid fa-plus sumar-cantidad"></i>
+                        </div>
+                        <span class="carrito-item-precio">$1.500</span>
+                    </div>
+                    <span class="btn-eliminar">
+                        <i class="fa-solid fa-trash"></i>
+                    </span>
+                </div>
+            </div>
+            <div class="carrito-total">
+                <div class="fila">
+                  <strong>Tu Total</strong> 
+                  <span class="carrito-precio-total">
+                    $3.000,00
+                  </span> 
+                </div>
+                <button class="btn-pagar">Pagar <i class="fa-solid fa-bag-shopping"></i></button>
+            </div>
+
+        </div>
+    </section>
+    <script src="assets/main.js"></script>
+</body>
+
+</html>
